@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "217614055674",
+    "project_id": "nematics-7c2bf",
+    "storage_bucket": "nematics-7c2bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217614055674:android:c46ef8e16e68d8de3ab143",
+        "android_client_info": {
+          "package_name": "com.stackbuffers.nematics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "217614055674-qlni2d9en2mokn14c08js7r0ufdr9p23.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.stackbuffers.nematics",
+            "certificate_hash": "83a76a7bb7766e44bfe1bc83c83172d3606d716a"
+          }
+        },
+        {
+          "client_id": "217614055674-k92snkjlhasgs75vimahn1v0as4l40ae.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXBgsb9ZbmL1VsO44Q0lIQYz03PN4W1pQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "217614055674-k92snkjlhasgs75vimahn1v0as4l40ae.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
