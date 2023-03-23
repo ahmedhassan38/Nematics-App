@@ -47,24 +47,27 @@ android {
         applicationId "com.stackbuffers.nematics"
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-build-configuration.
-        minSdkVersion 23
+        minSdkVersion 21
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
     }
 
-    signingConfigs {
-        release {
-//            storeFile file("C:\\Users\\123\\Desktop\\saqibnematics\\nematicsapp\\android\\key.jks")
-//            storePassword "123456"
-//            keyAlias "key0"
-//            keyPassword "123456"
-        }
-    }
+//    signingConfigs {
+//        release {
+//           // storeFile file("C:\\Users\\123\\Desktop\\saqibnematics\\nematicsapp\\android\\key.jks")
+//           // /Users/apple/Office/stack buffers/pixel care/Untitled
+////            storeFile file("C:\\Users\\apple\\Office\\stack%buffers\\pixel%care\\Untitled.jks")
+////            storePassword "12345678"
+////            keyAlias "key0"
+////            keyPassword "12345678"
+//        }
+//    }
     buildTypes {
         release {
-            signingConfig signingConfigs.release
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+//            signingConfig signingConfigs.release
+            signingConfig signingConfigs.debug
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
 }
