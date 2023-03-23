@@ -26,7 +26,7 @@ apply plugin: 'kotlin-android'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
-    compileSdkVersion 32
+    compileSdkVersion 33
     ndkVersion flutter.ndkVersion
 
     compileOptions {
@@ -55,10 +55,10 @@ android {
 
     signingConfigs {
         release {
-            storeFile file("C:\\Users\\123\\Desktop\\saqibnematics\\nematicsapp\\android\\key.jks")
-            storePassword "123456"
-            keyAlias "key0"
-            keyPassword "123456"
+//            storeFile file("C:\\Users\\123\\Desktop\\saqibnematics\\nematicsapp\\android\\key.jks")
+//            storePassword "123456"
+//            keyAlias "key0"
+//            keyPassword "123456"
         }
     }
     buildTypes {
